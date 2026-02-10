@@ -1,0 +1,71 @@
+# Python Virtual Environments
+venv/
+env/
+ENV/
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# TensorFlow
+*.ckpt
+*.pb
+*.h5
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+*.log
+.dockerignore
+
+# Environment variables
+.env
+.env.local
+
+# Test files - keep one sample
+test/*.jpg
+test/*.png
+!test/cat.jpg
+
+# Model files (if they get too large, we probably gonna ignore it)
+# Uncomment if models/ fo
